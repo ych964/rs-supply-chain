@@ -181,31 +181,6 @@ export function ContactForm() {
 
       {/* Info Section */}
       <section className="bg-secondary py-16">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="grid gap-8 md:grid-cols-3">
-            <div className="flex flex-col items-center gap-3 rounded-xl border border-border bg-card p-8 text-center shadow-sm">
-              <Mail className="h-8 w-8 text-primary" />
-              <h3 className="font-semibold text-foreground">Email</h3>
-              <p className="text-sm text-muted-foreground">
-                contact@supplychain-msc.fr
-              </p>
-            </div>
-            <div className="flex flex-col items-center gap-3 rounded-xl border border-border bg-card p-8 text-center shadow-sm">
-              <MessageSquare className="h-8 w-8 text-primary" />
-              <h3 className="font-semibold text-foreground">Reponse rapide</h3>
-              <p className="text-sm text-muted-foreground">
-                {"Nous repondons sous 48h"}
-              </p>
-            </div>
-            <div className="flex flex-col items-center gap-3 rounded-xl border border-border bg-card p-8 text-center shadow-sm">
-              <User className="h-8 w-8 text-primary" />
-              <h3 className="font-semibold text-foreground">{"Equipe dediee"}</h3>
-              <p className="text-sm text-muted-foreground">
-                {"Des professionnels a votre ecoute"}
-              </p>
-            </div>
-          </div>
-        </div>
       </section>
     </div>
   )
