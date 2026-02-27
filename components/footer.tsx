@@ -5,7 +5,7 @@ import Image from "next/image"
 const footerLinks = [
   { href: "/", label: "Accueil" },
   { href: "/supply-chain", label: "Supply Chain" },
-  { href: "/debouches", label: "Debouches" },
+  { href: "/debouches", label: "Débouchés" },
   { href: "/contact", label: "Contact" },
 ]
 
@@ -24,7 +24,7 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <Image src="/images/logo.jpeg" className="flex items-center gap-3 size-14 rounded-full" width={40} height={40} alt="Logo de Supply Chain"/>
             <p className="max-w-xs text-sm leading-relaxed text-primary-foreground/70">
-              {"Plateforme institutionnelle dediee au Management de la Supply Chain. Formation, debouches et opportunites professionnelles."}
+              {"Plateforme institutionnelle dédiée au Management de la Supply Chain. Formation, débouchés et opportunités professionnelles."}
             </p>
           </div>
 
@@ -81,20 +81,20 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-primary-foreground/10 pt-8 md:flex-row">
           <p className="text-xs text-primary-foreground/50">
-            {"© 2026 Management de la Supply Chain. Tous droits reserves."}
+            {"© 2026 Management de la Supply Chain. Tous droits réservés."}
           </p>
           <div className="flex gap-6">
             <Link
               href="#"
               className="text-xs text-primary-foreground/50 transition-colors hover:text-primary-foreground"
             >
-              Mentions legales
+              Mentions légales
             </Link>
             <Link
               href="#"
               className="text-xs text-primary-foreground/50 transition-colors hover:text-primary-foreground"
             >
-              Politique de confidentialite
+              Politique de confidentialité
             </Link>
           </div>
         </div>

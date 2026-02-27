@@ -6,7 +6,7 @@ import { SupplyChainContent } from "@/components/supply-chain-content"
 export const metadata: Metadata = {
   title: "Management de la Supply Chain : Tout Savoir",
   description:
-    "Decouvrez tout sur le management de la supply chain : definition, enjeux, competences cles, roles et secteurs concernes.",
+    "Découvrez tout sur le management de la supply chain : définition, enjeux, compétences clés, rôles et secteurs concernés.",
 }
 
 export default function SupplyChainPage() {

@@ -17,37 +17,37 @@ const competences = [
     icon: Package,
     title: "Gestion des approvisionnements",
     description:
-      "Maitrise des flux de matieres premieres, negociation fournisseurs et optimisation des couts d'achat.",
+      "Maîtrise des flux de matières premières, négociation fournisseurs et optimisation des coûts d'achat.",
   },
   {
     icon: TrendingUp,
     title: "Planification de la demande",
     description:
-      "Previsions de ventes, gestion des stocks et equilibrage entre offre et demande sur les marches.",
+      "Prévisions de ventes, gestion des stocks et équilibrage entre offre et demande sur les marchés.",
   },
   {
     icon: Settings,
     title: "Optimisation des processus",
     description:
-      "Amelioration continue, Lean Management, Six Sigma et digitalisation des operations logistiques.",
+      "Amélioration continue, Lean Management, Six Sigma et digitalisation des opérations logistiques.",
   },
   {
     icon: BarChart3,
-    title: "Analyse de donnees",
+    title: "Analyse de données",
     description:
-      "Utilisation des outils analytiques pour piloter la performance et anticiper les tendances du marche.",
+      "Utilisation des outils analytiques pour piloter la performance et anticiper les tendances du marché.",
   },
   {
     icon: Truck,
     title: "Transport & Distribution",
     description:
-      "Gestion multimodale des transports, optimisation des tournees et pilotage des entrepots.",
+      "Gestion multimodale des transports, optimisation des tournées et pilotage des entrepôts.",
   },
   {
     icon: ShieldCheck,
     title: "Gestion des risques",
     description:
-      "Identification des vulnerabilites, plans de continuite et resilience de la chaine logistique.",
+      "Identification des vulnérabilités, plans de continuité et résilience de la chaîne logistique.",
   },
 ]
 
@@ -58,8 +58,8 @@ const secteurs = [
   "E-commerce",
   "Industrie pharmaceutique",
   "Transport & Logistique",
-  "Energie",
-  "Aeronautique",
+  "Énergie",
+  "Aéronautique",
 ]
 
 export function SupplyChainContent() {
@@ -78,7 +78,7 @@ export function SupplyChainContent() {
             </span>
           </h1>
           <p className="max-w-2xl text-lg leading-relaxed text-primary-foreground/70">
-            {"Comprendre les enjeux, les competences et l'importance strategique de la gestion de la chaine d'approvisionnement dans le monde moderne."}
+            {"Comprendre les enjeux, les compétences et l'importance stratégique de la gestion de la chaîne d'approvisionnement dans le monde moderne."}
           </p>
         </div>
       </section>
@@ -89,27 +89,27 @@ export function SupplyChainContent() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div>
               <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-widest text-accent">
-                Definition
+                Définition
               </span>
               <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl">
                 {"Qu'est-ce que le Supply Chain Management ?"}
               </h2>
               <div className="flex flex-col gap-4 text-muted-foreground">
                 <p className="leading-relaxed">
-                  {"Le Supply Chain Management (SCM) designe l'ensemble des processus lies a la gestion des flux de produits, d'informations et de finances, depuis l'approvisionnement en matieres premieres jusqu'a la livraison du produit final au consommateur."}
+                  {"Le Supply Chain Management (SCM) désigne l'ensemble des processus liés à la gestion des flux de produits, d'informations et de finances, depuis l'approvisionnement en matières premières jusqu'à la livraison du produit final au consommateur."}
                 </p>
                 <p className="leading-relaxed">
-                  {"C'est une discipline strategique qui vise a optimiser l'efficacite, reduire les couts et ameliorer la satisfaction client a chaque etape de la chaine de valeur."}
+                  {"C'est une discipline stratégique qui vise à optimiser l'efficacité, réduire les coûts et améliorer la satisfaction client à chaque étape de la chaîne de valeur."}
                 </p>
                 <p className="leading-relaxed">
-                  {"Dans un monde globalise et en constante evolution, le management de la supply chain est devenu un avantage concurrentiel majeur pour les entreprises de toutes tailles et de tous secteurs."}
+                  {"Dans un monde globalisé et en constante évolution, le management de la supply chain est devenu un avantage concurrentiel majeur pour les entreprises de toutes tailles et de tous secteurs."}
                 </p>
               </div>
             </div>
             <div className="relative overflow-hidden rounded-2xl">
               <Image
                 src="/images/3.jpeg"
-                alt="Entrepot logistique moderne"
+                alt="Entrepôt logistique moderne"
                 width={600}
                 height={450}
                 className="h-auto w-full object-cover"
@@ -125,11 +125,11 @@ export function SupplyChainContent() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-12 text-center">
             <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-widest text-accent">
-              Competences
+              Compétences
             </span>
             <h2 className="text-3xl font-bold text-foreground md:text-4xl">
               <span className="text-balance">
-                Les competences cles de la Supply Chain
+                Les compétences clés de la Supply Chain
               </span>
             </h2>
           </div>
@@ -163,17 +163,17 @@ export function SupplyChainContent() {
             </span>
             <h2 className="text-3xl font-bold text-foreground md:text-4xl">
               <span className="text-balance">
-                {"Les etapes cles de la chaine d'approvisionnement"}
+                {"Les étapes clés de la chaîne d'approvisionnement"}
               </span>
             </h2>
           </div>
           <div className="grid gap-8 md:grid-cols-5">
             {[
-              { step: "01", title: "Approvisionnement", desc: "Selection et gestion des fournisseurs" },
+              { step: "01", title: "Approvisionnement", desc: "Sélection et gestion des fournisseurs" },
               { step: "02", title: "Production", desc: "Transformation et fabrication des produits" },
-              { step: "03", title: "Stockage", desc: "Gestion des entrepots et inventaires" },
+              { step: "03", title: "Stockage", desc: "Gestion des entrepôts et inventaires" },
               { step: "04", title: "Distribution", desc: "Transport et livraison des marchandises" },
-              { step: "05", title: "Service Client", desc: "Satisfaction et retour d'experience" },
+              { step: "05", title: "Service Client", desc: "Satisfaction et retour d'expérience" },
             ].map((item, index) => (
               <div key={item.step} className="relative flex flex-col items-center text-center">
                 <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary text-2xl font-bold text-accent">
@@ -208,7 +208,7 @@ export function SupplyChainContent() {
                 </span>
               </h2>
               <p className="mb-8 text-primary-foreground/70 leading-relaxed">
-                {"Le management de la supply chain offre des opportunites dans une grande variete de secteurs economiques, chacun avec ses propres defis et innovations."}
+                {"Le management de la supply chain offre des opportunités dans une grande variété de secteurs économiques, chacun avec ses propres défis et innovations."}
               </p>
               <div className="flex flex-wrap gap-3">
                 {secteurs.map((secteur) => (
@@ -224,7 +224,7 @@ export function SupplyChainContent() {
             <div className="relative overflow-hidden rounded-2xl">
               <Image
                 src="/images/logistics-global.jpg"
-                alt="Reseau logistique mondial"
+                alt="Réseau logistique mondial"
                 width={600}
                 height={450}
                 className="h-fullw-full object-cover"
@@ -240,11 +240,11 @@ export function SupplyChainContent() {
         <div className="mx-auto max-w-3xl px-6 text-center">
           <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
             <span className="text-balance">
-              {"Interesse par les debouches ?"}
+              {"Intéressé par les débouchés ?"}
             </span>
           </h2>
           <p className="mb-8 text-muted-foreground leading-relaxed">
-            {"Decouvrez les metiers, les opportunites professionnelles et les perspectives d'evolution dans le domaine de la supply chain."}
+            {"Découvrez les métiers, les opportunités professionnelles et les perspectives d'évolution dans le domaine de la supply chain."}
           </p>
           <Link
             href="/debouches"

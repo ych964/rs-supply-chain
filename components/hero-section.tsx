@@ -17,7 +17,7 @@ export function HeroSection() {
       <div className="absolute inset-0">
         <Image
           src="/images/hero-supply-chain.jpg"
-          alt="Vue aerienne d'un port logistique"
+          alt="Vue aérienne d'un port logistique"
           fill
           className="object-cover"
           priority
@@ -51,7 +51,7 @@ export function HeroSection() {
         </h1>
 
         <p className="mb-12 max-w-2xl text-lg leading-relaxed text-primary-foreground/70 md:text-xl">
-          {"Decouvrez une filiere d'excellence formant les leaders de la logistique et de la chaine d'approvisionnement de demain."}
+          {"Découvrez une filière d'excellence formant les leaders de la logistique et de la chaîne d'approvisionnement de demain."}
         </p>
 
         {/* CTA Arrow */}
@@ -60,7 +60,7 @@ export function HeroSection() {
           className="group flex flex-col items-center gap-3 transition-all"
         >
           <span className="text-sm font-bold uppercase tracking-[0.2em] text-accent transition-colors group-hover:text-accent/80">
-            {"INFORMATIONS SUR LA FILIERE ET DEBOUCHES"}
+            {"INFORMATIONS SUR LA FILIÈRE ET DÉBOUCHÉS"}
           </span>
           <div className="animate-bounce-slow flex h-12 w-12 items-center justify-center rounded-full border-2 border-accent text-accent transition-all group-hover:bg-accent group-hover:text-primary">
             <ChevronDown className="h-6 w-6" />

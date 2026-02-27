@@ -35,43 +35,43 @@ const metiersSupplyChain = [
     icon: Users,
     title: "Directeur Supply Chain",
     description:
-      "Definit et pilote la strategie globale de la chaine logistique. Il coordonne les achats, la production, la planification et la distribution afin d'assurer la performance globale de l'entreprise.",
+      "Définit et pilote la stratégie globale de la chaîne logistique. Il coordonne les achats, la production, la planification et la distribution afin d'assurer la performance globale de l'entreprise.",
   },
   {
     icon: Settings,
     title: "Supply Chain Manager",
     description:
-      "Supervise les operations quotidiennes et optimise les flux pour garantir efficacite, maitrise des couts et respect des delais.",
+      "Supervise les opérations quotidiennes et optimise les flux pour garantir efficacité, maîtrise des coûts et respect des délais.",
   },
   {
     icon: BarChart3,
     title: "Demand Planner",
     description:
-      "Analyse les donnees et les tendances du marche afin d'anticiper la demande et d'adapter les niveaux de stock.",
+      "Analyse les données et les tendances du marché afin d'anticiper la demande et d'adapter les niveaux de stock.",
   },
   {
     icon: ClipboardList,
     title: "Planificateur de Production",
     description:
-      "Organise les programmes de fabrication en fonction des previsions et des capacites industrielles.",
+      "Organise les programmes de fabrication en fonction des prévisions et des capacités industrielles.",
   },
   {
     icon: Package,
     title: "Responsable Approvisionnement",
     description:
-      "Securise les matieres premieres et gere les relations avec les fournisseurs afin d'eviter toute rupture.",
+      "Sécurise les matières premières et gère les relations avec les fournisseurs afin d'éviter toute rupture.",
   },
   {
     icon: Truck,
     title: "Responsable Logistique",
     description:
-      "Supervise les entrepots, le stockage et la distribution des marchandises.",
+      "Supervise les entrepôts, le stockage et la distribution des marchandises.",
   },
   {
     icon: Search,
     title: "Analyste Supply Chain",
     description:
-      "Exploite les donnees pour ameliorer la performance et accompagner la prise de decision strategique.",
+      "Exploite les données pour améliorer la performance et accompagner la prise de décision stratégique.",
   },
   {
     icon: Briefcase,
@@ -83,13 +83,13 @@ const metiersSupplyChain = [
     icon: FileText,
     title: "Responsable ADV",
     description:
-      "Assure la gestion des commandes clients et la coordination interne entre les differents services.",
+      "Assure la gestion des commandes clients et la coordination interne entre les différents services.",
   },
   {
     icon: ShieldCheck,
     title: "Consultant Supply Chain",
     description:
-      "Accompagne les entreprises dans l'amelioration et la modernisation de leurs chaines d'approvisionnement.",
+      "Accompagne les entreprises dans l'amélioration et la modernisation de leurs chaînes d'approvisionnement.",
   },
 ]
 
@@ -98,58 +98,58 @@ const metiersTransport = [
     icon: Route,
     title: "Responsable Transport",
     description:
-      "Organise et optimise les operations de transport en veillant au respect des couts, des delais et des reglementations.",
+      "Organise et optimise les opérations de transport en veillant au respect des coûts, des délais et des réglementations.",
   },
   {
     icon: Handshake,
-    title: "Affreteur",
+    title: "Affréteur",
     description:
-      "Negocie et coordonne les solutions de transport adaptees aux besoins des clients.",
+      "Négocie et coordonne les solutions de transport adaptées aux besoins des clients.",
   },
   {
     icon: Navigation,
     title: "Exploitant Transport",
     description:
-      "Planifie les tournees et supervise le bon deroulement des operations quotidiennes.",
+      "Planifie les tournées et supervise le bon déroulement des opérations quotidiennes.",
   },
   {
     icon: Ship,
     title: "Commissionnaire de Transport",
     description:
-      "Agit comme intermediaire entre les clients et les transporteurs pour organiser les expeditions nationales et internationales.",
+      "Agit comme intermédiaire entre les clients et les transporteurs pour organiser les expéditions nationales et internationales.",
   },
   {
     icon: Globe,
     title: "Responsable Logistique Internationale",
     description:
-      "Gere les flux import-export et les formalites douanieres liees au commerce international.",
+      "Gère les flux import-export et les formalités douanières liées au commerce international.",
   },
 ]
 
 const perspectives = [
   {
     icon: TrendingUp,
-    title: "Evolution rapide",
+    title: "Évolution rapide",
     description:
-      "Les professionnels de la supply chain evoluent rapidement vers des postes de direction grace a la forte demande.",
+      "Les professionnels de la supply chain évoluent rapidement vers des postes de direction grâce à la forte demande.",
   },
   {
     icon: MapPin,
-    title: "Mobilite internationale",
+    title: "Mobilité internationale",
     description:
-      "Les competences en supply chain sont recherchees partout dans le monde, offrant des opportunites a l'international.",
+      "Les compétences en supply chain sont recherchées partout dans le monde, offrant des opportunités à l'international.",
   },
   {
     icon: Banknote,
-    title: "Remuneration attractive",
+    title: "Rémunération attractive",
     description:
-      "Les salaires dans la supply chain sont parmi les plus competitifs du secteur industriel et commercial.",
+      "Les salaires dans la supply chain sont parmi les plus compétitifs du secteur industriel et commercial.",
   },
   {
     icon: GraduationCap,
     title: "Digitalisation",
     description:
-      "La transformation digitale ouvre de nouvelles perspectives et specialisations dans le secteur logistique.",
+      "La transformation digitale ouvre de nouvelles perspectives et spécialisations dans le secteur logistique.",
   },
 ]
 
@@ -241,13 +241,13 @@ export function DebouchesContent() {
       <section className="bg-primary py-20">
         <div className="mx-auto max-w-7xl px-6">
           <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-widest text-accent">
-            Carrieres
+            Carrières
           </span>
           <h1 className="mb-6 text-4xl font-bold uppercase tracking-tight text-primary-foreground md:text-5xl lg:text-6xl">
-            <span className="text-balance">Debouches</span>
+            <span className="text-balance">Débouchés</span>
           </h1>
           <p className="max-w-2xl text-lg leading-relaxed text-primary-foreground/70">
-            {"La Supply Chain et le Transport occupent une place strategique dans le fonctionnement des entreprises modernes. De l'approvisionnement a la livraison finale, ces secteurs regroupent des metiers varies, alliant strategie, analyse, coordination et gestion operationnelle."}
+            {"La Supply Chain et le Transport occupent une place stratégique dans le fonctionnement des entreprises modernes. De l'approvisionnement à la livraison finale, ces secteurs regroupent des métiers variés, alliant stratégie, analyse, coordination et gestion opérationnelle."}
           </p>
         </div>
       </section>
@@ -259,7 +259,7 @@ export function DebouchesContent() {
             <div className="relative overflow-hidden rounded-2xl">
               <Image
                 src="/images/1.jpeg"
-                alt="Professionnels en reunion"
+                alt="Professionnels en réunion"
                 width={600}
                 height={450}
                 className="h-auto w-full object-cover"
@@ -268,18 +268,18 @@ export function DebouchesContent() {
             </div>
             <div>
               <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-widest text-accent">
-                Opportunites
+                Opportunités
               </span>
               <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl">
                 <span className="text-balance">
-                  Des metiers varies et strategiques
+                  Des métiers variés et stratégiques
                 </span>
               </h2>
               <p className="mb-4 leading-relaxed text-muted-foreground">
-                {"Voici quelques metiers en Supply Chain et en Transport qui offrent aujourd'hui de reelles opportunites professionnelles."}
+                {"Voici quelques métiers en Supply Chain et en Transport qui offrent aujourd'hui de réelles opportunités professionnelles."}
               </p>
               <p className="leading-relaxed text-muted-foreground">
-                {"Ces metiers constituent des debouches dynamiques et strategiques, repondant aux enjeux actuels de performance, de competitivite et de digitalisation des entreprises."}
+                {"Ces métiers constituent des débouchés dynamiques et stratégiques, répondant aux enjeux actuels de performance, de compétitivité et de digitalisation des entreprises."}
               </p>
             </div>
           </div>
@@ -295,7 +295,7 @@ export function DebouchesContent() {
             </span>
             <h2 className="text-3xl font-bold text-foreground md:text-4xl">
               <span className="text-balance">
-                Les metiers en Supply Chain
+                Les métiers en Supply Chain
               </span>
             </h2>
           </div>
@@ -322,7 +322,7 @@ export function DebouchesContent() {
               Transport
             </span>
             <h2 className="text-3xl font-bold text-foreground md:text-4xl">
-              <span className="text-balance">Les metiers en Transport</span>
+              <span className="text-balance">Les métiers en Transport</span>
             </h2>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -349,7 +349,7 @@ export function DebouchesContent() {
             </span>
             <h2 className="text-3xl font-bold text-foreground md:text-4xl">
               <span className="text-balance">
-                {"Perspectives d'evolution"}
+                {"Perspectives d'évolution"}
               </span>
             </h2>
           </div>
@@ -381,7 +381,7 @@ export function DebouchesContent() {
           >
             <div className="rounded-2xl border-2 border-dashed border-accent/40 px-12 py-10 transition-all group-hover:border-accent group-hover:bg-accent/10">
               <p className="text-xl font-bold uppercase tracking-wide text-primary transition-colors group-hover:text-accent md:text-2xl">
-                {"TOUCHE-MOI ET LAISSE TA QUESTION OU PREOCCUPATION"}
+                {"TOUCHE-MOI ET LAISSE TA QUESTION OU PRÉOCCUPATION"}
               </p>
               <p className="mt-3 text-sm text-muted-foreground">
                 {"Clique ici pour descendre au formulaire"}
@@ -401,11 +401,11 @@ export function DebouchesContent() {
             </span>
             <h2 className="text-3xl font-bold text-primary-foreground md:text-4xl">
               <span className="text-balance">
-                {"Une question ? Une preoccupation ?"}
+                {"Une question ? Une préoccupation ?"}
               </span>
             </h2>
             <p className="mt-4 leading-relaxed text-primary-foreground/70">
-              {"N'hesitez pas a nous ecrire. Notre equipe se fera un plaisir de vous repondre."}
+              {"N'hésitez pas à nous écrire. Notre équipe se fera un plaisir de vous répondre."}
             </p>
           </div>
 
@@ -418,7 +418,7 @@ export function DebouchesContent() {
                 Merci pour votre message !
               </h3>
               <p className="max-w-md leading-relaxed text-primary-foreground/70">
-                {"Nous avons bien recu votre question. Notre equipe vous repondra rapidement par email."}
+                {"Nous avons bien reçu votre question. Notre équipe vous répondra rapidement par email."}
               </p>
               <button
                 onClick={() => {
@@ -485,14 +485,14 @@ export function DebouchesContent() {
                   className="flex items-center gap-2 text-sm font-medium text-primary-foreground"
                 >
                   <MessageSquare className="h-4 w-4 text-accent" />
-                  {"Question / Preoccupation *"}
+                  {"Question / Préoccupation *"}
                 </label>
                 <textarea
                   id="debouches-question"
                   name="question"
                   required
                   rows={5}
-                  placeholder="Ecrivez votre question ou preoccupation ici..."
+                  placeholder="Écrivez votre question ou préoccupation ici..."
                   className="resize-none rounded-lg border border-primary-foreground/20 bg-primary-foreground/10 px-4 py-3 text-sm text-primary-foreground placeholder:text-primary-foreground/40 transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
                 />
               </div>

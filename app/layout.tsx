@@ -18,7 +18,7 @@ const _roboto = Roboto({
 export const metadata: Metadata = {
   title: 'Management de la Supply Chain',
   description:
-    'Plateforme institutionnelle dediee au Management de la Supply Chain. Decouvrez la filiere, les debouches et les opportunites professionnelles.',
+    'Plateforme institutionnelle dédiée au Management de la Supply Chain. Découvrez la filière, les débouchés et les opportunités professionnelles.',
   generator: 'v0.app',
   icons: {
     icon: [

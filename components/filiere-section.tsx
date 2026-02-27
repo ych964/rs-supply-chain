@@ -14,22 +14,21 @@ import {
   Scale,
   Briefcase,
   ClipboardList,
-  Settings,
-  GraduationCap,
+  Settings
 } from "lucide-react"
 
 const rolesSC = [
   {
     icon: BarChart3,
-    title: "Planification et prevision",
+    title: "Planification et prévision",
     description:
-      "Anticiper les besoins en matieres premieres et produits finis pour eviter les ruptures ou surplus.",
+      "Anticiper les besoins en matières premières et produits finis pour éviter les ruptures ou surplus.",
   },
   {
     icon: Package,
     title: "Gestion des stocks",
     description:
-      "Optimiser les niveaux de stock pour limiter les couts tout en garantissant la disponibilite.",
+      "Optimiser les niveaux de stock pour limiter les coûts tout en garantissant la disponibilité.",
   },
   {
     icon: Factory,
@@ -41,18 +40,18 @@ const rolesSC = [
     icon: Briefcase,
     title: "Gestion des fournisseurs et des achats",
     description:
-      "Securiser l'approvisionnement et negocier les meilleures conditions.",
+      "Sécuriser l'approvisionnement et négocier les meilleures conditions.",
   },
   {
     icon: Truck,
     title: "Distribution et transport",
-    description: "Livrer les produits de maniere efficace et rentable.",
+    description: "Livrer les produits de manière efficace et rentable.",
   },
   {
     icon: Settings,
-    title: "Analyse et amelioration continue",
+    title: "Analyse et amélioration continue",
     description:
-      "Suivre la performance, identifier les problemes et optimiser les processus.",
+      "Suivre la performance, identifier les problèmes et optimiser les processus.",
   },
 ]
 
@@ -65,12 +64,12 @@ const secteurs = [
   {
     icon: ShoppingCart,
     label: "Distribution & E-commerce",
-    detail: "Supermarches, plateformes de vente en ligne",
+    detail: "Supermarchés, plateformes de vente en ligne",
   },
   {
     icon: Truck,
     label: "Transport & Logistique",
-    detail: "Routier, maritime, aerien et ferroviaire",
+    detail: "Routier, maritime, aérien et ferroviaire",
   },
   {
     icon: Globe,
@@ -82,13 +81,13 @@ const secteurs = [
 const ues = [
   {
     code: "UE 1",
-    title: "Langues et ecrits professionnels",
+    title: "Langues et écrits professionnels",
     icon: Languages,
     color: "bg-blue-500/10 text-blue-600",
     matieres: [
       "Anglais",
-      "Ecrits professionnels",
-      "Education Physique et Sportive",
+      "Écrits professionnels",
+      "Éducation Physique et Sportive",
     ],
   },
   {
@@ -98,26 +97,26 @@ const ues = [
     color: "bg-emerald-500/10 text-emerald-600",
     matieres: [
       "Informatique et initiation ERP",
-      "Controle statistique de la qualite",
+      "Contrôle statistique de la qualité",
       "Assurance des transports",
     ],
   },
   {
     code: "UE 3",
-    title: "Specialites",
+    title: "Spécialités",
     icon: Scale,
     color: "bg-amber-500/10 text-amber-600",
-    matieres: ["Contentieux", "Droit fiscal", "Economie et geopolitique"],
+    matieres: ["Contentieux", "Droit fiscal", "Économie et géopolitique"],
   },
   {
     code: "UE 4",
-    title: "Gestion et management operationnel",
+    title: "Gestion et management opérationnel",
     icon: ClipboardList,
     color: "bg-purple-500/10 text-purple-600",
     matieres: [
       "Gestion des stocks",
       "Gestion de production",
-      "Gestion des moyens generaux",
+      "Gestion des moyens généraux",
       "Management des achats",
       "Supply Chain Management",
     ],
@@ -132,15 +131,15 @@ export function FiliereSection() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-16 max-w-3xl">
             <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-widest text-accent">
-              La filiere
+              La filière
             </span>
             <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl">
               <span className="text-balance">
-                {"La Supply Chain - Filiere INPHB"}
+                {"Étude en Supply Chain Management"}
               </span>
             </h2>
             <p className="leading-relaxed text-muted-foreground">
-              {"La Supply Chain, ou chaine d'approvisionnement, est l'ensemble des processus qui permettent a une entreprise de faire arriver le bon produit, au bon endroit, au bon moment, et au moindre cout. Elle couvre toutes les etapes, depuis l'approvisionnement en matieres premieres, la production, le stockage, jusqu'a la distribution et la livraison aux clients."}
+              {"La Supply Chain, ou chaîne d'approvisionnement, est l'ensemble des processus qui permettent à une entreprise de faire arriver le bon produit, au bon endroit, au bon moment, et au moindre coût. Elle couvre toutes les étapes, depuis l'approvisionnement en matières premières, la production, le stockage, jusqu'à la distribution et la livraison aux clients."}
             </p>
           </div>
 
@@ -154,7 +153,7 @@ export function FiliereSection() {
                 La Logistique
               </h3>
               <p className="leading-relaxed text-muted-foreground">
-                {"Se concentre sur la gestion des flux physiques : stockage, transport, manutention et livraison. C'est un maillon essentiel mais specifique de la chaine."}
+                {"Se concentre sur la gestion des flux physiques : stockage, transport, manutention et livraison. C'est un maillon essentiel mais spécifique de la chaîne."}
               </p>
             </div>
             <div className="rounded-xl border border-accent/30 bg-accent/5 p-8 shadow-sm">
@@ -165,7 +164,7 @@ export function FiliereSection() {
                 Supply Chain
               </h3>
               <p className="leading-relaxed text-muted-foreground">
-                {"Est plus globale et strategique : elle inclut la logistique, mais aussi la planification de la production, la gestion des stocks, les achats, la relation avec les fournisseurs et la coordination avec les clients."}
+                {"Est plus globale et stratégique : elle inclut la logistique, mais aussi la planification de la production, la gestion des stocks, les achats, la relation avec les fournisseurs et la coordination avec les clients."}
               </p>
             </div>
           </div>
@@ -181,7 +180,7 @@ export function FiliereSection() {
                   Le transport dans la Supply Chain
                 </h3>
                 <p className="leading-relaxed text-muted-foreground">
-                  {"Le transport est un element essentiel de la Supply Chain. Il consiste a acheminer les matieres premieres vers les sites de production et les produits finis vers les entrepots ou directement aux clients. Les modes de transport peuvent etre varies : routier, ferroviaire, maritime ou aerien. Une bonne gestion du transport permet de reduire les couts, optimiser les delais et assurer la fiabilite des livraisons."}
+                  {"Le transport est un élément essentiel de la Supply Chain. Il consiste à acheminer les matières premières vers les sites de production et les produits finis vers les entrepôts ou directement aux clients. Les modes de transport peuvent être variés : routier, ferroviaire, maritime ou aérien. Une bonne gestion du transport permet de réduire les coûts, optimiser les délais et assurer la fiabilité des livraisons."}
                 </p>
               </div>
             </div>
@@ -194,7 +193,7 @@ export function FiliereSection() {
             </span>
             <h3 className="mb-8 text-2xl font-bold text-foreground md:text-3xl">
               <span className="text-balance">
-                {"Role de la Supply Chain"}
+                {"Rôle de la Supply Chain"}
               </span>
             </h3>
           </div>
@@ -226,7 +225,7 @@ export function FiliereSection() {
             </span>
             <h3 className="mb-8 text-2xl font-bold text-foreground md:text-3xl">
               <span className="text-balance">
-                Entreprises concernees
+                Entreprises concernées
               </span>
             </h3>
           </div>
@@ -258,11 +257,11 @@ export function FiliereSection() {
             </span>
             <h2 className="mb-4 text-3xl font-bold text-primary-foreground md:text-4xl">
               <span className="text-balance">
-                {"Contenu de la formation a l'INPHB"}
+                {"Contenu de la formation à l'INPHB"}
               </span>
             </h2>
             <p className="mx-auto max-w-2xl leading-relaxed text-primary-foreground/70">
-              {"Le programme est structure autour de quatre grandes unites d'enseignement pour former des professionnels polyvalents et operationnels."}
+              {"Le programme est structuré autour de quatre grandes unités d'enseignement pour former des professionnels polyvalents et opérationnels."}
             </p>
           </div>
 
@@ -303,17 +302,8 @@ export function FiliereSection() {
           </div>
 
           <p className="mt-10 text-center text-sm leading-relaxed text-primary-foreground/60">
-            {"Ces matieres permettent aux etudiants d'acquerir des competences techniques, juridiques, economiques et manageriales, ainsi qu'une bonne maitrise des outils numeriques et des methodes de planification."}
+            {"Ces matières permettent aux étudiants d'acquérir des compétences techniques, juridiques, économiques et managériales, ainsi qu'une bonne maîtrise des outils numériques et des méthodes de planification."}
           </p>
-
-          <div className="mt-8 flex justify-center">
-            <div className="flex items-center gap-3 rounded-full bg-accent/20 px-6 py-3">
-              <GraduationCap className="h-5 w-5 text-accent" />
-              <span className="text-sm font-semibold text-accent">
-                {"Diplome reconnu par l'Etat"}
-              </span>
-            </div>
-          </div>
         </div>
       </section>
 

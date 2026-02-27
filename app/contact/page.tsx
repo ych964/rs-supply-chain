@@ -6,7 +6,7 @@ import { ContactForm } from "@/components/contact-form"
 export const metadata: Metadata = {
   title: "Contact - Management de la Supply Chain",
   description:
-    "Posez vos questions sur la filiere Management de la Supply Chain. Notre equipe vous repondra rapidement.",
+    "Posez vos questions sur la filière Management de la Supply Chain. Notre équipe vous répondra rapidement.",
 }
 
 export default function ContactPage() {

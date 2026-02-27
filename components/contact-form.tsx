@@ -54,7 +54,7 @@ export function ContactForm() {
             <span className="text-balance">Posez votre question</span>
           </h1>
           <p className="max-w-2xl text-lg leading-relaxed text-primary-foreground/70">
-            {"Vous avez une question sur la filiere, les debouches ou l'association ? Remplissez le formulaire ci-dessous et nous vous repondrons dans les plus brefs delais."}
+            {"Vous avez une question sur la filière, les débouchés ou l'association ? Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais."}
           </p>
         </div>
       </section>
@@ -71,7 +71,7 @@ export function ContactForm() {
                 Merci pour votre message !
               </h2>
               <p className="max-w-md text-muted-foreground leading-relaxed">
-                {"Nous avons bien recu votre question. Notre equipe vous repondra rapidement par email."}
+                {"Nous avons bien reçu votre question. Notre équipe vous répondra rapidement par email."}
               </p>
               <button
                 onClick={() => setIsSubmitted(false)}
@@ -87,10 +87,10 @@ export function ContactForm() {
             >
               <div className="mb-4 text-center">
                 <h2 className="text-2xl font-bold text-foreground">
-                  {"Ecrivez-nous"}
+                  {"Écrivez-nous"}
                 </h2>
                 <p className="mt-2 text-sm text-muted-foreground">
-                  {"Tous les champs marques d'un * sont obligatoires"}
+                  {"Tous les champs marqués d'un * sont obligatoires"}
                 </p>
               </div>
 
@@ -144,14 +144,14 @@ export function ContactForm() {
                   className="flex items-center gap-2 text-sm font-medium text-foreground"
                 >
                   <MessageSquare className="h-4 w-4 text-muted-foreground" />
-                  {"Question / Preoccupation *"}
+                  {"Question / Préoccupation *"}
                 </label>
                 <textarea
                   id="question"
                   name="question"
                   required
                   rows={6}
-                  placeholder="Ecrivez votre question ou preoccupation ici..."
+                  placeholder="Écrivez votre question ou préoccupation ici..."
                   className="resize-none rounded-lg border border-input bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/50 transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
                 />
               </div>

@@ -4,9 +4,9 @@ import { Footer } from "@/components/footer"
 import { DebouchesContent } from "@/components/debouches-content"
 
 export const metadata: Metadata = {
-  title: "Debouches - Management de la Supply Chain",
+  title: "Débouchés - Management de la Supply Chain",
   description:
-    "Decouvrez les metiers, opportunites professionnelles et perspectives d'evolution dans le management de la supply chain.",
+    "Découvrez les métiers, opportunités professionnelles et perspectives d'évolution dans le management de la supply chain.",
 }
 
 export default function DebouchesPage() {
