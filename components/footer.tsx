@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Facebook, Instagram, Linkedin, Twitter, Mail, MapPin, Music2 } from "lucide-react"
+import Image from "next/image"
 
 const footerLinks = [
   { href: "/", label: "Accueil" },
@@ -21,14 +22,7 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-3">
           {/* Brand */}
           <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent">
-                <span className="text-lg font-bold text-primary">SC</span>
-              </div>
-              <span className="text-lg font-bold tracking-wide">
-                SUPPLY CHAIN
-              </span>
-            </div>
+            <Image src="/images/logo.jpeg" className="flex items-center gap-3 size-14 rounded-full" width={40} height={40} alt="Logo de Supply Chain"/>
             <p className="max-w-xs text-sm leading-relaxed text-primary-foreground/70">
               {"Plateforme institutionnelle dediee au Management de la Supply Chain. Formation, debouches et opportunites professionnelles."}
             </p>
