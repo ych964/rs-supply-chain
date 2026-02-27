@@ -24,6 +24,7 @@ export async function POST(request: Request) {
     // Send email using Resend or fallback to a mailto-based approach
     // For now, we use the built-in fetch to send via Resend if API key is available
     const resendApiKey = process.env.RESEND_API_KEY
+    const sgMail = process.env.SG_MAIL
 
     if (resendApiKey) {
       const res = await fetch("https://api.resend.com/emails", {
@@ -34,7 +35,7 @@ export async function POST(request: Request) {
         },
         body: JSON.stringify({
           from: "Supply Chain MSC <onboarding@resend.dev>",
-          to: ["contact@supplychain-msc.fr"],
+          to: [sgMail || ""],
           reply_to: email,
           subject: `[Contact] Nouvelle question de ${name || "Anonyme"}`,
           html: `
